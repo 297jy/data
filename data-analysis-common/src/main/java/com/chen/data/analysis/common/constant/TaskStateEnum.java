@@ -7,7 +7,8 @@ public enum TaskStateEnum {
     SUCCESS("success"),
     FAIL("fail"),
     QUERY("query"),
-    CREATE_TABLE("create_table");
+    CREATE_TABLE("create_table"),
+    CANCEL("cancel");
 
     private final String value;
 

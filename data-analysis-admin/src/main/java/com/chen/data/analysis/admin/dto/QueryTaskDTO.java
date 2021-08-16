@@ -3,6 +3,8 @@ package com.chen.data.analysis.admin.dto;
 import com.chen.data.analysis.common.constant.TaskStateEnum;
 import lombok.Data;
 
+import java.util.List;
+
 @Data
 public class QueryTaskDTO {
 
@@ -19,5 +21,9 @@ public class QueryTaskDTO {
     private String submissionTime;
 
     private TaskStateEnum state;
+    //任务进度
+    private Integer progress;
+
+    private List<VariableDTO> variables;
 
 }

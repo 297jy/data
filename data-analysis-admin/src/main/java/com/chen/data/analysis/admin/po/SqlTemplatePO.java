@@ -9,7 +9,7 @@ import lombok.Data;
 public class SqlTemplatePO {
 
     private Integer id;
-
+    //该SQL模板会输出的列
     private String cols;
 
     private String label;
@@ -17,7 +17,7 @@ public class SqlTemplatePO {
     private String describe;
 
     private String sql;
-
+    //查询引擎
     private String queryEngineType;
 
 }

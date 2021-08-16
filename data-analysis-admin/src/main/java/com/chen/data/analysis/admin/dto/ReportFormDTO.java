@@ -15,6 +15,8 @@ public class ReportFormDTO {
 
     private List<GroupDTO> groups;
 
+    private List<VariableDTO> variables;
+
     private String label;
 
     private CatalogueDTO catalogue;

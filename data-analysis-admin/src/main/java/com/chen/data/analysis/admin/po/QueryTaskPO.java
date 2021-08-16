@@ -19,4 +19,6 @@ public class QueryTaskPO {
 
     private String state;
 
+    private Integer progress;
+
 }

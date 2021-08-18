@@ -17,6 +17,8 @@ public class QueryTaskPlanPO {
 
     private String state;
 
+    private String planType;
+
     //这个计划执行需要的临时表,多个表用逗号分隔
     private String operatorTempTables;
     //这个计划需要执行的sql语句

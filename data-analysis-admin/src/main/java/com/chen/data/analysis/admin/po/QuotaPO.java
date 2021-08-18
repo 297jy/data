@@ -21,6 +21,8 @@ public class QuotaPO extends AbstractSqlComponentPO {
 
     private String abscissaDataType;
 
+    private String sqlAggregationType;
+
     private String dataFormat;
 
 }

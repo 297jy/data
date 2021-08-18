@@ -7,6 +7,8 @@ public class DimensionPO {
 
     private Integer id;
 
-    private String dimension;
+    private String dimensions;
+
+    private String label;
 
 }

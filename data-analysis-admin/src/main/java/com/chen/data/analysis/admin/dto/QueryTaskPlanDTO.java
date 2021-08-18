@@ -8,9 +8,9 @@ public class QueryTaskPlanDTO {
 
     private Integer id;
 
-    private QueryTaskPlanDTO prevPlanId;
+    private QueryTaskPlanDTO prevPlan;
 
-    private QueryTaskPlanDTO nextPlanId;
+    private QueryTaskPlanDTO nextPlan;
 
     private QueryTaskDTO task;
 
@@ -18,8 +18,12 @@ public class QueryTaskPlanDTO {
 
     private TaskStateEnum state;
 
-    private String sqlMapJsonValue;
+    private String sql;
 
-    private String dataSetTempTableName;
+    private String operatorTempTables;
+    //临时文件数据的路径,用于创建临时表
+    private String operatorTempFileDataPath;
+
+    private String resFilePath;
 
 }

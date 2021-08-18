@@ -21,4 +21,6 @@ public class ReportFormDTO {
 
     private CatalogueDTO catalogue;
 
+    private DimensionDTO dimension;
+
 }

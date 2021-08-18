@@ -17,8 +17,11 @@ public class QueryTaskPlanPO {
 
     private String state;
 
-    private String sqlMapJsonValue;
-
-    private String dataSetTempTableName;
+    //这个计划执行需要的临时表,多个表用逗号分隔
+    private String operatorTempTables;
+    //这个计划需要执行的sql语句
+    private String sql;
+    //结果文件存放的地址
+    private String resFilePath;
 
 }
